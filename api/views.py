@@ -10,6 +10,8 @@ from .serializers import (
     RestaurantListSerializer,
     RestaurantDetailSerializer,
     RestaurantCreateUpdateSerializer,
+    UserSerializer,
+    ItemSerializer,
 )
 from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
 from .permissions import IsOwner
